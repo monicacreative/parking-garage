@@ -27,6 +27,7 @@ class Garage():
         print(self.tickets)
         print(self.currentTicket)
         
+ # Angelica - payForParking Section       
     def payForParking(self):
         paid = int(input("What's your ticket number?  "))
         self.currentTicket[paid] = 'paid' 
@@ -45,6 +46,9 @@ class Garage():
         self.tickets.append(answer)
         self.parkingSpaces.append(answer)
             
+
+# Denise - parkingGarage Section
+         
 parkingGarage = Garage([1,2,3,4,5],[1,2,3,4,5],{})      
 def run():
     while True:
